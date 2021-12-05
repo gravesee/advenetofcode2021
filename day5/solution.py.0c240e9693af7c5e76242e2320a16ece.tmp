@@ -1,0 +1,50 @@
+## puzzle 1
+
+from typing import List, Tuple
+from collections import defaultdict, namedtuple
+
+Point = namedtuple("Point", ("x", "y"))
+
+
+def point_from_coords(coords: str):
+    x, y = map(int, coords.split(","))
+    return Point(x, y)
+
+
+def inclusive_range(a, b):
+    # python range is fucky
+    a, b = sorted([a, b])
+    while a <= b:
+        yield a
+        a += 1
+
+
+def is_diagonal(start, stop):
+    if abs(start.x - stop.x) == abs(start.y - stop.y):
+        return True
+    return False
+
+
+with open("data.txt", "r") as fin:
+    points: List[Tuple[Point, Point]] = []  # store points as tuple of pairs
+    for row in fin:
+        start, stop = row.strip().split(" -> ")
+        points.append((point_from_coords(start), point_from_coords(stop)))
+
+    map = defaultdict(int)
+    for start, stop in points:
+        # traverse from start to stop
+        if start.x == stop.x:
+            for i in inclusive_range(start.y, stop.y):
+                map[(start.x, i)] += 1
+        elif start.y == stop.y:
+            for i in inclusive_range(start.x, stop.x):
+                map[(i, start.y)] += 1
+        else:
+            print(is_diagonal(start, stop))
+            pass
+
+    filtered = list(filter(lambda x: x > 1, map.values()))
+
+    # print(map)
+    print(len(filtered))

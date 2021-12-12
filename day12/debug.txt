@@ -1,0 +1,993 @@
+A ['start'] defaultdict(<class 'int'>, {'start': 1}) True
+start ['start', 'A'] defaultdict(<class 'int'>, {'start': 1}) False
+c ['start', 'A'] defaultdict(<class 'int'>, {'start': 1}) True
+A ['start', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 1}) True
+start ['start', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1}) False
+c ['start', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1}) True
+A ['start', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 2}) False
+start ['start', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2}) False
+c ['start', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2}) False
+b ['start', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2}) False
+A ['start', 'A', 'c', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+d ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+start ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+d ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1}) True
+start ['start', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) True
+A ['start', 'A', 'c', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+A ['start', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+A ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2}) False
+A ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+A ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) True
+b ['start', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'd': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+A ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'c', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'c', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'b', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1}) False
+A ['start', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1}) True
+A ['start', 'A', 'c', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+start ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+start ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+d ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+A ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+start ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+A ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+start ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+c ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+d ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+d ['start', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+b ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1, 'd': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+start ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+d ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+A ['start', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+A ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+start ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 2, 'end': 1, 'b': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+A ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+start ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+c ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+b ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+d ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+b ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+d ['start', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) True
+b ['start', 'A', 'c', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1, 'd': 1}) True
+start ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+start ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+c ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+b ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+d ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'c': 1, 'end': 1, 'b': 1}) False
+b ['start', 'A'] defaultdict(<class 'int'>, {'start': 1}) True
+start ['start', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+A ['start', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+start ['start', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+c ['start', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+A ['start', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) True
+start ['start', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) True
+A ['start', 'A', 'b', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+A ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) True
+start ['start', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+d ['start', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) False
+A ['start', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+A ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+d ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+d ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+start ['start', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+start ['start', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+c ['start', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'A', 'b', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+start ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+end ['start', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'A', 'b', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+b ['start', 'A', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'A', 'b', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'b', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+A ['start', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+A ['start', 'A', 'b', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+A ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+start ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+c ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+end ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+A ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+d ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'A', 'end', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+b ['start', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'd': 1}) True
+start ['start', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+start ['start', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+c ['start', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'b', 'd', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+A ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'b', 'd', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+A ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+d ['start', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'b', 'd', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+start ['start', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+A ['start', 'A', 'b', 'd', 'b', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'A', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'd', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+A ['start', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+c ['start', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+A ['start', 'A', 'b', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+A ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+start ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+c ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+end ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+A ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+d ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'end', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+b ['start', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'A', 'b', 'end', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'A', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'A', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'A', 'b', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'A', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'A'] defaultdict(<class 'int'>, {'start': 1}) False
+A ['start', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'end': 1}) True
+start ['start', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1}) False
+c ['start', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1}) True
+A ['start', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1}) True
+start ['start', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1}) False
+c ['start', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1}) True
+A ['start', 'A', 'end', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2}) False
+start ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2}) False
+c ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2}) False
+start ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+A ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+start ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+c ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+d ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2}) False
+b ['start', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1}) True
+start ['start', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) False
+A ['start', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) True
+start ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) False
+c ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) True
+A ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+start ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+c ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 2, 'b': 1}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) True
+start ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+A ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+start ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+c ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+d ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) False
+d ['start', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) True
+b ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1, 'd': 1}) True
+start ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+start ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+c ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+b ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+d ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1, 'b': 1}) False
+end ['start', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'c': 1}) False
+b ['start', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1}) True
+start ['start', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+A ['start', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+A ['start', 'A', 'end', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) True
+start ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) False
+c ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) True
+A ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+start ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+c ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+b ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+end ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+b ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) True
+start ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+A ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+start ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+c ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+d ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) False
+b ['start', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+A ['start', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+start ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+c ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+A ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+start ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+c ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+d ['start', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+b ['start', 'A', 'end', 'A', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+d ['start', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+b ['start', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'd': 1}) True
+start ['start', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+start ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+c ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+start ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+c ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+b ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+b ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+d ['start', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+end ['start', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1}) False
+b ['start', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'end': 1}) True
+start ['start', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+A ['start', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+c ['start', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+A ['start', 'A', 'end', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) True
+start ['start', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) False
+c ['start', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) True
+A ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+start ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+c ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+b ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+end ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 2}) False
+b ['start', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) True
+start ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+A ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+start ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+c ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+d ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1, 'd': 1}) False
+end ['start', 'A', 'end', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'c': 1}) False
+b ['start', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+start ['start', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+A ['start', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+start ['start', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+c ['start', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+A ['start', 'A', 'end', 'b', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+start ['start', 'A', 'end', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+c ['start', 'A', 'end', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+end ['start', 'A', 'end', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'c': 1}) False
+b ['start', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'end', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+d ['start', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+b ['start', 'A', 'end', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2}) False
+end ['start', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+d ['start', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) True
+b ['start', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1, 'd': 1}) True
+start ['start', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+start ['start', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+c ['start', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+A ['start', 'A', 'end', 'b', 'd', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+start ['start', 'A', 'end', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+c ['start', 'A', 'end', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+b ['start', 'A', 'end', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+end ['start', 'A', 'end', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1, 'c': 1}) False
+b ['start', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+d ['start', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 2, 'd': 1}) False
+end ['start', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'end': 1, 'b': 1}) False
+b ['start'] defaultdict(<class 'int'>, {'start': 1}) True
+start ['start', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+A ['start', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+start ['start', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+c ['start', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+A ['start', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) True
+start ['start', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) False
+c ['start', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) True
+A ['start', 'b', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+start ['start', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+c ['start', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+b ['start', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+end ['start', 'b', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2}) False
+A ['start', 'b', 'A', 'c', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+start ['start', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) True
+start ['start', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+start ['start', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'b', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+d ['start', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'd': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'b', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1}) False
+A ['start', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+start ['start', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+A ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+start ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+start ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+A ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+d ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1, 'd': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'c': 1, 'end': 1}) True
+start ['start', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+A ['start', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+d ['start', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'c', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1, 'd': 1}) False
+end ['start', 'b', 'A', 'c', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+start ['start', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+start ['start', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+c ['start', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'b', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+start ['start', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+c ['start', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+b ['start', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+end ['start', 'b', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1}) False
+A ['start', 'b', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+start ['start', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+c ['start', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'A', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+end ['start', 'b', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'b', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'A', 'b', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'A', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'A', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+b ['start', 'b', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+end ['start', 'b', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2}) False
+A ['start', 'b', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'A', 'b', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'A', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'A', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+A ['start', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+c ['start', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+A ['start', 'b', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+A ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+start ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+c ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+end ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+A ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+d ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1, 'd': 1}) False
+end ['start', 'b', 'A', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'A', 'end', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'A', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'A', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'b', 'A', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+b ['start', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'A', 'end', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'A', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'A', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'b', 'A', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'b', 'A', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) True
+b ['start', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'd': 1}) True
+start ['start', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+start ['start', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+c ['start', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'b', 'd', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+start ['start', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+c ['start', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+b ['start', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+end ['start', 'b', 'd', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1}) False
+A ['start', 'b', 'd', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+start ['start', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+c ['start', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+end ['start', 'b', 'd', 'b', 'A', 'c', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'd', 'b', 'A', 'c', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'c': 1, 'end': 1}) False
+b ['start', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+end ['start', 'b', 'd', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'b', 'd', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+start ['start', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+c ['start', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+A ['start', 'b', 'd', 'b', 'A', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'd', 'b', 'A', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'b', 'd', 'b', 'A', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'b', 'd', 'b', 'A', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+d ['start', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+end ['start', 'b', 'd', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1}) False
+A ['start', 'b', 'd', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+start ['start', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+c ['start', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+A ['start', 'b', 'd', 'b', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'd', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'b', 'd', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+b ['start', 'b', 'd', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'd': 1, 'end': 1}) False
+end ['start', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 1}) False
+A ['start', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+c ['start', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+A ['start', 'b', 'end', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+A ['start', 'b', 'end', 'A', 'c', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+start ['start', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+c ['start', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+end ['start', 'b', 'end', 'A', 'c', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 2}) False
+b ['start', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) True
+start ['start', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+A ['start', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'end', 'A', 'c', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+d ['start', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'end', 'A', 'c', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1, 'd': 1}) False
+end ['start', 'b', 'end', 'A', 'c', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'end', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'end', 'A', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'end', 'A', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'end', 'A', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'b', 'end', 'A', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'b', 'end', 'A', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'end', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) False
+b ['start', 'b', 'end'] defaultdict(<class 'int'>, {'start': 1, 'b': 1, 'end': 1}) True
+start ['start', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+start ['start', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+c ['start', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+A ['start', 'b', 'end', 'b', 'A', 'c'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+start ['start', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+c ['start', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+end ['start', 'b', 'end', 'b', 'A', 'c', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'c': 1}) False
+b ['start', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+end ['start', 'b', 'end', 'b', 'A'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+d ['start', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+b ['start', 'b', 'end', 'b', 'd'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1, 'd': 1}) False
+end ['start', 'b', 'end', 'b'] defaultdict(<class 'int'>, {'start': 1, 'b': 2, 'end': 1}) False
+[['start', 'A', 'c', 'A', 'c', 'A', 'b', 'A', 'end'],
+ ['start', 'A', 'c', 'A', 'c', 'A', 'b', 'end'],
+ ['start', 'A', 'c', 'A', 'c', 'A', 'end'],
+ ['start', 'A', 'c', 'A', 'b', 'A', 'c', 'A', 'end'],
+ ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'A', 'end'],
+ ['start', 'A', 'c', 'A', 'b', 'A', 'b', 'end'],
+ ['start', 'A', 'c', 'A', 'b', 'A', 'end'],
+ ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'A', 'end'],
+ ['start', 'A', 'c', 'A', 'b', 'd', 'b', 'end'],
+ ['start', 'A', 'c', 'A', 'b', 'end'],
+ ['start', 'A', 'c', 'A', 'end'],
+ ['start', 'A', 'b', 'A', 'c', 'A', 'c', 'A', 'end'],
+ ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'A', 'end'],
+ ['start', 'A', 'b', 'A', 'c', 'A', 'b', 'end'],
+ ['start', 'A', 'b', 'A', 'c', 'A', 'end'],
+ ['start', 'A', 'b', 'A', 'b', 'A', 'c', 'A', 'end'],
+ ['start', 'A', 'b', 'A', 'b', 'A', 'end'],
+ ['start', 'A', 'b', 'A', 'b', 'end'],
+ ['start', 'A', 'b', 'A', 'end'],
+ ['start', 'A', 'b', 'd', 'b', 'A', 'c', 'A', 'end'],
+ ['start', 'A', 'b', 'd', 'b', 'A', 'end'],
+ ['start', 'A', 'b', 'd', 'b', 'end'],
+ ['start', 'A', 'b', 'end'],
+ ['start', 'A', 'end'],
+ ['start', 'b', 'A', 'c', 'A', 'c', 'A', 'end'],
+ ['start', 'b', 'A', 'c', 'A', 'b', 'A', 'end'],
+ ['start', 'b', 'A', 'c', 'A', 'b', 'end'],
+ ['start', 'b', 'A', 'c', 'A', 'end'],
+ ['start', 'b', 'A', 'b', 'A', 'c', 'A', 'end'],
+ ['start', 'b', 'A', 'b', 'A', 'end'],
+ ['start', 'b', 'A', 'b', 'end'],
+ ['start', 'b', 'A', 'end'],
+ ['start', 'b', 'd', 'b', 'A', 'c', 'A', 'end'],
+ ['start', 'b', 'd', 'b', 'A', 'end'],
+ ['start', 'b', 'd', 'b', 'end'],
+ ['start', 'b', 'end']]
+36
